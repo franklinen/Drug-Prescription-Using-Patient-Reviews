@@ -8,10 +8,15 @@ Drug prescription errors are common and result in serious complications in patie
 
 ## Aims ##
 **Apply NLP and standard medical terminologies to preprocess input features.**
+
 **Design and evaluate machine learning model.**
+
 **Improve model performance**
+
 **Package Model in App**
+
 **Deploy model in Development using Docker**
+
 **Deploy Model in Production using Google Cloud**
 
 ## Data Source ##
