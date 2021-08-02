@@ -1,4 +1,4 @@
-# Natural Language Processing Based Drug Prescription Using Patient Reviews #
+# NLP Prescription Using Patient Reviews #
 
 
 # Overview
