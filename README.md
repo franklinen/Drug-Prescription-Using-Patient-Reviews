@@ -8,7 +8,7 @@ Identifying, resolving, and preventing drug therapy problems are the unique cont
 ## Summary ##
 *We have developed a natural language processing (NLP)-based model for predicting the right medication for a particular condition based on paient reviews of the medication and usefulness factor calculation.*
 
-## Aims ##
+## Project Step-by-step process ##
 **Apply NLP and standard medical terminologies to preprocess input features.**
 
 **Design and evaluate machine learning model.**
