@@ -2,10 +2,10 @@ FROM python:3.8
 
 COPY . /app/
 
-EXPOSE 5000
+EXPOSE 8501
 
 WORKDIR /app/
 
 RUN pip install -r requirements.txt
 
-CMD python3 app.py
+CMD streamlit run app.py
