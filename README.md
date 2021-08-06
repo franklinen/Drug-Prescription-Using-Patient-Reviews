@@ -46,7 +46,7 @@ Step 4 - Build and run Docker
 
 Step 4 - Deploy App in Production Using Google Cloud
 * List Projects
-** gcloud__projects__list**
+_**gcloud__projects__list**_
 * To change to the project you created you can use
 **gcloud__config__set__project__your_projectname**
 * To check for the current project you use
