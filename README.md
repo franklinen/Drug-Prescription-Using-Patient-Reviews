@@ -45,7 +45,7 @@ Step 3 - Generate dependencies for building Docker - requirements.txt
 
 Step 4 - Build and run Docker
 
-**docker build**
+**docker build -t imagename .**
 
 **docker run -p:5000** 
 
