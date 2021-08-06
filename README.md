@@ -28,7 +28,7 @@ No modeling was employed, but we designed a recommendation based on the usefulne
 
 ## Application
 
-## How to run ##
+#### How to run ####
 We describe below a tutorial for executing the prescription forecasting code using sample raw data.
 
 Step 1 - to run the code
