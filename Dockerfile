@@ -1,11 +1,15 @@
 FROM python:3.8
 
-COPY . /app/
-
-EXPOSE 8501
-
 WORKDIR /app/
+
+COPY requirements.txt ./requirements.txt
 
 RUN pip install -r requirements.txt
 
-CMD streamlit run app.py
+EXPOSE 8501
+
+COPY . /app/
+
+ENTRYPOINT ["streamlit","run"]
+
+CMD ["app.py"]
