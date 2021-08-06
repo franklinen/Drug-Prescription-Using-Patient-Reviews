@@ -32,16 +32,21 @@ No modeling was employed, but we designed a recommendation based on the usefulne
 We describe below a tutorial for executing the prescription forecasting code using sample raw data.
 
 Step 1 - to run the code
+
 **python3 app.py**
 
 Step 2 - To run the application
+
 **streamlit run app.py**
 
 Step 3 - Generate dependencies for building Docker - requirements.txt
+
 **pipreqs  /"Working Directory"/**
 
 Step 4 - Build and run Docker
+
 **docker build**
+
 **docker run -p:5000** 
 
 Step 4 - Deploy App in Production Using Google Cloud
