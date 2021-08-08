@@ -50,21 +50,31 @@ Step 4 - Build and run Docker
 **docker run -p 8501:8501 imagename** 
 
 Step 4 - Deploy App in Production Using Google Cloud
-* List Projects
 
-**gcloud__projects__list**
+* Authenticate GCloud SDK
+**gcloud auth login**
+
+* Configure Docker to use GCP Credentials *
+**gcloud auth configure-docker**
 
 * To change to the project you created you can use
+**gcloud config set project [PROJECT-ID]**
 
-**gcloud__config__set__project__your_projectname**
+* ENABLE GOOGLE CONTAINER REGISTRY(GCR) *
 
-* To check for the current project you use
+* Upload Container to Google Container Registry
+**gcloud builds submit --tag gcr.io/[PROJECT-ID]/container-name**
 
-**gcloud__config__get-value__project**
+** DEPLOY WITH CLOUD RUN **
 
-* To deploy our app we will be using
 
-**gcloud__app__deploy**
+
+
+
+
+
+
+
 
 
 
